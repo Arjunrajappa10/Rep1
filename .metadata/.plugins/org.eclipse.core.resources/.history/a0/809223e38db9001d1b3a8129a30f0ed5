@@ -1,0 +1,13 @@
+package applicationcontext;
+
+import org.springframework.core.io.ClassPathResource;
+
+public class Bikemain
+{
+	public static void main(String[] args) 
+	{
+		ClassPathResource classPathResource=new ClassPathResource("ioc.xml");
+		
+	}
+
+}
